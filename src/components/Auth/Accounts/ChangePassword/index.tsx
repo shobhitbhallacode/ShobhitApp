@@ -12,7 +12,7 @@ import NavigationService from '../../../../core/Auth/Services/SignInNavigationSe
 
 export interface ChangePasswordProps {
     navigation: NavigationScreenProp<NavigationState, NavigationParams>;
-}
+} 
 
 function ChangePassword({ navigation }: ChangePasswordProps) {
     return (
